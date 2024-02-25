@@ -70,6 +70,8 @@ Ok, lets come back to our new hire Mr Zephyr. We wanted to give him a simple tas
 
 This process of expecting LLMs to answer the question using the existing knowledge is called using a pre-trained or foundation model i.e Expecting to answer questions OOTB with his existing knowledge. Zephyr-7b-beta is one of the best open-source alternatives to ChatGPT in many tasks, particularly Text Summarization, Text Understanding. What you see below is a performance benchmark just like GPA Scores of college grads.
 
+![image](./Zephyr 7B Beta - perfomance comparison.png)
+
 Let’s say the pretrained model has answered a question wrong, what we now want is to learn again and then attempt to give the right answer. The process of expecting LLMs to answer the question after giving some instructions is called fine-tuning/supervised fine-tuning/instruction fine-tuning. i.e top-up its knowledge and try if it can get the answer right. In our case, we take pretrained Zephyr-7b-beta, give some sample Questions and Answers aka Instruction dataset, make it learn and then ask the question to the updated model and hope it gives the right answers.
 
 Practically, we can’t keep spending time on training resources all the time if he doesn’t know an answer. i.e on Job if a resource doesn’t know how to do certain stuff, we don’t immediately arrange a 2-day training to learn and come back. if so, he has to be on training most of his job time :)
@@ -248,6 +250,10 @@ This completes the three methods to use LLM as
 1. Want to use it Out of the Box? Use Pre-Trained
 2. Want to use it with additional training? Use it with Fine Tuning
 3. Want to use it OOTB with/Without additional training, but also with near real-time reference documents? Use Retrieval Augmented Generation (RAG) + OOTB Pretrained OR Retrieval Augmented Generation (RAG) + OOTB Pretrained with an added Fine-Tuned Model
+
+The diagram below summaries the above three methods.
+
+![image](./RAG.png)
 
 Ok, now that we know LLMs can be smarter, faster, intelligent to some extent and promising does is really think and answer like Human? Answer is No. We are just not word/token generators :) .. Having said that, it has tremendous potential. It will and already would he replaced few jobs and will continue to do so, however it’s not yet ready for critical prod applications. Its super useful tool for Augmented  Data Labelling, Text Summarization , Text classification in an Enterprise and it can only grow better from here on.
 
