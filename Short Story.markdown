@@ -12,7 +12,7 @@ Now, can  you use your imagination and write a short story by extending the plot
 
 
 
-[Rajesh] Well, i know that you must be thinking ....this plot is something that can be fit into any part of the world and can resonate "N" number of stories :) .. Still, lets do it and see if we have thought ChatGPT the same wicked ways ! ha ha..  I have named the characters in native language to ensure the least some handwork for ChatGPT in a otherwise a toy story!.. Nevertheless, our objective is to learn LLMs, Fine tuning and RAG .Come on, the floor is yours ChatGPT. lets go ahead !!!
+[Rajesh] Well, i know that you must be thinking ....this plot is something that can be fit into any part of the world and can resonate "N" number of stories :) .. Still, lets do it and see if we have taught ChatGPT the same wicked ways ! ha ha..  I have named the characters in native language to ensure the least some handwork for ChatGPT in a otherwise a toy story!.. Nevertheless, our objective is to learn LLMs, Fine tuning and RAG .Come on, the floor is yours ChatGPT. lets go ahead !!!
 
 ## Part 1: A Kingdom Reclaimed
 
